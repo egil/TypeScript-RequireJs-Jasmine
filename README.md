@@ -15,3 +15,5 @@ There are a few interesting things to note about the files in the project:
 
 ##Improvments##
 If you have any improvments or suggestions, please submit a pull request on GitHub with your modifications.
+
+Comments and suggestions can also be posted here in the Issues section or in the [original blog post on my website](http://egilhansen.com/node/40).
