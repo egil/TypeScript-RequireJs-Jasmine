@@ -20,4 +20,5 @@ Comments and suggestions can also be posted here in the Issues section or in the
 ##Changelog##
 
 **03/06/2013: [Removed init.ts file, load specs from specrunner.ts directly](https://github.com/egil/TypeScript-RequireJs-Jasmine/commit/52cdc7c78678b95fe624eb24b298047123f4a7ce)**
+
 Removed init.ts and rewrote specrunner.ts load specs directly. There was no need to do it through init.ts.
