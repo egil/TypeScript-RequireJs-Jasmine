@@ -75,9 +75,6 @@
     <Content Include="src\project\demo.js">
       <DependentUpon>demo.ts</DependentUpon>
     </Content>
-    <Content Include="src\spec\init.js">
-      <DependentUpon>init.ts</DependentUpon>
-    </Content>
     <TypeScriptCompile Include="src\project\demo.ts" />
     <Content Include="src\specrunner.js">
       <DependentUpon>specrunner.ts</DependentUpon>
@@ -87,7 +84,6 @@
       <DependentUpon>demo.spec.ts</DependentUpon>
     </Content>
     <TypeScriptCompile Include="src\spec\demo.spec.ts" />
-    <Content Include="src\spec\init.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\libs\jasmine-1.3.1\MIT.LICENSE" />
@@ -105,11 +101,6 @@
   <ItemGroup>
     <Content Include="src\spec\demo.spec.js.map">
       <DependentUpon>demo.spec.ts</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="src\spec\init.js.map">
-      <DependentUpon>init.ts</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>

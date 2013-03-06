@@ -4,7 +4,9 @@ require.config({
     baseUrl: 'src'
 });
 
-require(['spec/init'], (specs) => {
+require(['spec/demo.spec'], () => {
     var jasmineEnv = jasmine.getEnv();    
-    specs.uvis.spec.init(jasmineEnv);
+    jasmineEnv.execute();
+}, (err) => {
+    console.error('Unable to load some or all of the requires specs. Error message = ' + err);
 });

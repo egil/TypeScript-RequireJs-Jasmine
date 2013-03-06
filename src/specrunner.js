@@ -4,9 +4,11 @@ require.config({
     baseUrl: 'src'
 });
 require([
-    'spec/init'
-], function (specs) {
+    'spec/demo.spec'
+], function () {
     var jasmineEnv = jasmine.getEnv();
-    specs.uvis.spec.init(jasmineEnv);
+    jasmineEnv.execute();
+}, function (err) {
+    console.error('Unable to load some or all of the requires specs. Error message = ' + err);
 });
 //@ sourceMappingURL=specrunner.js.map
