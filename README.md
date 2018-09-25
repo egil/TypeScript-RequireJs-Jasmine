@@ -1,4 +1,4 @@
-﻿A boilerplate project for getting [TypeScript](http://www.typescriptlang.org/), [RequireJS](http://requirejs.org/), and [Jasmine](http://pivotal.github.com/jasmine/) playing nicely together in Visual Studio.
+﻿A boilerplate project for getting [TypeScript](http://www.typescriptlang.org/), [RequireJS](http://requirejs.org/), and [Jasmine](https://jasmine.github.io/) playing nicely together in Visual Studio.
 
 ##How to Use##
 To see it in action, simply fork or download the project and open it up in Visual Studio 2012 (with the [TypeScript](http://www.microsoft.com/en-us/download/details.aspx?id=34790) and [Web Essentials](http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6) plugins installed), and right click the *specrunner.html* and select *View in Browser*.
